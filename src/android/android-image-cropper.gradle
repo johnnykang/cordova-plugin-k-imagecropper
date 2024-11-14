@@ -1,7 +1,7 @@
 dependencies {
     implementation files('libs/android-image-cropper-2.7.0.aar')
-    api "androidx.appcompat:appcompat:$androidXLibraryVersion"
-    implementation "androidx.exifinterface:exifinterface:$androidXLibraryVersion"
+    api "androidx.appcompat:appcompat:1.0.0"
+    implementation "androidx.exifinterface:exifinterface:1.0.0"
 }
 
 android {
@@ -9,9 +9,4 @@ android {
         exclude 'META-INF/NOTICE'
         exclude 'META-INF/LICENSE'
     }
-}
-ext {
-    compileSdkVersion = 28
-    buildToolsVersion = '28.0.3'
-    androidXLibraryVersion = '1.0.0'
 }
